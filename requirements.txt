@@ -14,5 +14,6 @@ tqdm>=4.65.0
 # Visualization (used by Grad-CAM heatmaps)
 matplotlib>=3.7.0
 
---> kagglehub (unless you are downloading dataset locally)
---> flask, streamlit (unless app.py is used)
+#--> kagglehub (unless you are downloading dataset locally)
+
+#--> flask, streamlit (unless app.py is used)
