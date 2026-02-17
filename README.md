@@ -1,4 +1,3 @@
-# DeepShield
 Explainable AI Framework for Deepfake Detection and Media Authenticity.
 
 ## Key Features
@@ -11,9 +10,14 @@ Explainable AI Framework for Deepfake Detection and Media Authenticity.
   - Outputs a probability score (0–1) indicating how likely an image is real
   - Avoids rigid binary decisions
 
-- 🧠 **Explainability (Grad-CAM)**
+- ✅ **Explainable AI with Grad-CAM**
   - Visual heatmaps highlighting regions that influenced the model’s decision
   - Improves transparency and trust
+
+- 🧠 **Multi-Crop Robust Inference**
+- Splits image into multiple regions
+- Aggregates predictions for improved robustness
+- Reduces false positives caused by local artifacts    
 
 - 📈 **Comprehensive Evaluation**
   - Accuracy, Precision, Recall, F1-score
@@ -21,7 +25,7 @@ Explainable AI Framework for Deepfake Detection and Media Authenticity.
   - Confusion Matrix
 
 ## 🗂️ Project Structure
-
+```bash
 DeepShield/
 │
 ├── datasets/
@@ -49,6 +53,7 @@ DeepShield/
 ├── test_image.py
 ├── requirements.txt
 └── README.md
+```
 
 ## Install Dependencies:
 ```
